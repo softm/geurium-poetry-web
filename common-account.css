@@ -1,0 +1,15 @@
+/* The account control is optional. Personal records remain in this device. */
+.hannun-account { display:flex; align-items:center; justify-content:flex-end; flex-wrap:wrap; gap:8px 12px; min-width:0; font-size:14px; }
+.hannun-account-link { display:inline-flex; align-items:center; justify-content:center; min-height:38px; padding:6px 12px; border:1px solid currentColor; border-radius:7px; text-decoration:none; white-space:nowrap; font-weight:600; }
+.hannun-account-link[hidden] { display:none; }
+.hannun-account-note { color:#66616b; font-size:12px; line-height:1.5; }
+#siteAccountSlot { display:inline-flex; min-width:0; }
+html[data-hannun-native-ads="true"] ins.kakao_ad_area,
+html[data-hannun-native-ads="true"] [data-adfit],
+html[data-hannun-native-ads="true"] .adfit-container { display:none !important; }
+@media print { .hannun-account, .hannun-accountbar { display:none !important; } }
+
+.hannun-accountbar { margin-left:238px; padding:10px 48px; border-bottom:1px solid #e5e2df; background:#f9f7f3; }
+@media(max-width:1200px) { .hannun-accountbar { margin-left:214px; padding-left:32px; padding-right:32px; } }
+@media(max-width:820px) { .hannun-accountbar { margin-left:0; padding:8px 20px; } }
+@media(max-width:480px) { .hannun-account { justify-content:space-between; gap:6px; } .hannun-account-note { max-width:150px; } }

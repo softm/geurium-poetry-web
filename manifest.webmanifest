@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "name": "그리움과 시 — 마음이 한 편의 시가 되는 곳",
+  "short_name": "그리움과 시",
+  "description": "그리운 마음을 시와 편지로 남기는 개인 글쓰기 공간",
+  "lang": "ko",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f6fb",
+  "theme_color": "#32324c",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

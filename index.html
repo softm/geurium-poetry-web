@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ko" data-hannun-site="geuriumpoetry">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#292b40">
+  <meta name="description" content="그리운 마음을 한 편의 시로 남겨 보세요. 시와 보내지 않는 편지, 오늘의 마음을 이 브라우저에 보관합니다.">
+  <title>그리움과 시 — 마음이 한 편의 시가 되는 곳</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./common-account.css">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./icon-192.png">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://softm.github.io; style-src 'self' 'unsafe-inline' https://softm.github.io; img-src 'self' data: blob: https://*.googleusercontent.com https://*.kakaocdn.net https://*.pstatic.net; connect-src 'self' https://softm-hannun-account.softm.workers.dev; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+  <header class="hannun-accountbar" aria-label="한눈 계정"><div class="hannun-account"><span class="hannun-account-note">로그인해도 기록은 이 기기에 보관돼요</span><span id="siteAccountSlot"></span><a class="hannun-account-link" data-account-fallback href="https://softm-hannun-account.softm.workers.dev/account" target="_blank" rel="noopener noreferrer">한눈 계정 웹사이트</a></div></header>
+  <div id="app"></div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <div id="dialog-root"></div>
+  <div id="print-surface"></div>
+  <noscript><p>그리움과 시를 사용하려면 JavaScript를 켜주세요. 기록은 이 브라우저에 저장됩니다.</p></noscript>
+  <script src="./native-bridge.js" defer></script>
+  <script src="./app.js" defer></script>
+  <script src="./common-account.js" defer></script>
+  <script src="./pwa.js" defer></script>
+</body>
+</html>
